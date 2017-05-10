@@ -15,7 +15,8 @@
     "antd": "^2.10.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "ts-loader": "^2.0.3"
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.5.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",

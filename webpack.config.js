@@ -17,10 +17,7 @@ const config = {
 
     module: {
         rules: [
-            {
-                test: /\.tsx?$/,
-                loader: 'ts-loader'
-            },
+            { test: /\.tsx?$/, loader: "babel-loader!ts-loader" },
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
